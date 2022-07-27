@@ -58,12 +58,31 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/angrybird/Red_Movie.png
-    - assets/angrybird/Red_Classic.png
     - assets/angrybird/Hatclings_Movie.png
+    - assets/angrybird/Courtney_Movie.png
+    - assets/angrybird/MinionPig_Movie.png
+    - assets/angrybird/Garry_Movie.png
+    - assets/angrybird/Bubbles_Movie.png
+    - assets/angrybird/Zeta_Movie.png
+    - assets/angrybird/Blues_Movie.png
+    - assets/angrybird/Silver_Movie.png
+    - assets/angrybird/MightyEagle_Movie.png
+    - assets/angrybird/Terence_Movie.png
+    - assets/angrybird/Matilda_Movie.png
+    - assets/angrybird/Chuck_Movie.png
+    - assets/angrybird/Stella_Movie.png
     - assets/angrybird/Bomb_Movie.png
-    - assets/angrybird/Hal_Movie.png
-    - assets/angrybird/KingPig_Classic.png
-  #   - images/a_dot_ham.jpeg
+    - assets/angrybird/Red_Classic.png
+    - assets/angrybird/MinionPig_Classic.png
+    - assets/angrybird/Bubbles_Classic.png
+    - assets/angrybird/Blues_Classic.png
+    - assets/angrybird/Silver_Classic.png
+    - assets/angrybird/MightyEagle_Classic.png
+    - assets/angrybird/Terence_Classic.png
+    - assets/angrybird/Matilda_Classic.png
+    - assets/angrybird/Chuck_Classic.png
+    - assets/angrybird/Bomb_Movie.png
+ 
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

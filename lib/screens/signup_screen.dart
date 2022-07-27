@@ -79,11 +79,15 @@ class _SignupScreenState extends State<SignupScreen> {
                           },
                           decoration: const InputDecoration(
                             border: UnderlineInputBorder(
-                              borderSide:
-                                  BorderSide(width: 1, color: Colors.grey),
+                              borderSide: BorderSide(
+                                width: 1,
+                                color: Colors.grey,
+                              ),
                             ),
                             labelText: 'Email',
-                            labelStyle: TextStyle(color: AppColors.textFaded),
+                            labelStyle: TextStyle(
+                              color: AppColors.textFaded,
+                            ),
                           ),
                         ),
                         const SizedBox(
@@ -104,11 +108,15 @@ class _SignupScreenState extends State<SignupScreen> {
                           obscureText: true,
                           decoration: const InputDecoration(
                             border: UnderlineInputBorder(
-                              borderSide:
-                                  BorderSide(width: 1, color: Colors.grey),
+                              borderSide: BorderSide(
+                                width: 1,
+                                color: Colors.grey,
+                              ),
                             ),
                             labelText: 'Password',
-                            labelStyle: TextStyle(color: AppColors.textFaded),
+                            labelStyle: TextStyle(
+                              color: AppColors.textFaded,
+                            ),
                           ),
                         ),
                         const SizedBox(
@@ -125,6 +133,8 @@ class _SignupScreenState extends State<SignupScreen> {
                                       content: Text('Processing Data')),
                                 );
                               }
+
+                              Navigator.popAndPushNamed(context, homeRoute);
                             },
                             style: ButtonStyle(
                               foregroundColor:

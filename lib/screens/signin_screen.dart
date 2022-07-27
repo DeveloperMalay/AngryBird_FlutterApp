@@ -103,6 +103,8 @@ class _SignInScreenState extends State<SignInScreen> {
                               const SnackBar(content: Text('Processing Data')),
                             );
                           }
+
+                          Navigator.popAndPushNamed(context, homeRoute);
                         },
                         style: ButtonStyle(
                           foregroundColor:

@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      // theme: ThemeData(scaffoldBackgroundColor: AppColors.cardDark),
       home: const SignInScreen(),
       routes: {
         signupRoute: (context) => const SignupScreen(),
